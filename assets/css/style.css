@@ -12,3 +12,25 @@
     --form-color: #A8A8A8;
     --bg-button-color: #8257e5;
 }
+body {
+    max-width: 1440px;
+}
+.container {
+    display: flex;
+    height: 100vh;
+}
+.section--left {
+    flex: 1;
+    margin-left: 36px;
+}
+.section--right {
+    flex: 1;
+    background-image: url(../media/read_news.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header img {
+    width: 389px;
+    margin: 50px 0px 92px 0px;
+}
