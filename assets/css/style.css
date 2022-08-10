@@ -7,7 +7,7 @@
 
 :root {
     --body-bg-color: #121214;
-    --text-color: #E1E1E6;
+    --text-color: #FFF;
     --title-color: #04D361;
     --form-color: #A8A8A8;
     --bg-button-color: #8257e5;
@@ -18,10 +18,12 @@ body {
 .container {
     display: flex;
     height: 100vh;
+    background-color: var(--body-bg-color);
 }
 .section--left {
     flex: 1;
     margin-left: 36px;
+    
 }
 .section--right {
     flex: 1;
@@ -29,8 +31,29 @@ body {
     background-size: cover;
     background-position: center;
 }
-
 header img {
     width: 389px;
     margin: 50px 0px 92px 0px;
+}
+h1 {
+    font-family: 'work sans' , sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--title-color);
+    margin-bottom: 9px;
+}
+h3 {
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--text-color);
+    margin-bottom: 9px;
+}
+p {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--text-color);
+    margin-bottom: 50px;
+}
+form {
+    color: var(--form-color);
 }
