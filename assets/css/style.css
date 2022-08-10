@@ -22,14 +22,15 @@ body {
 }
 .section--left {
     flex: 1;
-    margin-left: 36px;
-    
 }
 .section--right {
     flex: 1;
     background-image: url(../media/read_news.jpg);
     background-size: cover;
     background-position: center;
+}
+header, .section--infor, form, .link {    
+    margin-left: 36px;
 }
 header img {
     width: 389px;
